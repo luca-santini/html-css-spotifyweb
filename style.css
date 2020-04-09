@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 aside {
+    float: left;
     background-color: #040404;
     border-left: 1px solid grey;
     width: 20%;
     height: 100vh;
-    position: relative;
 }
 
 #title {
@@ -48,7 +48,44 @@ li {
     color: white;
     padding-top: 10px;
 }
-
 main {
-    background-color: white;
+    background-color: grey;
+    float: right;
+    width: 80%;
+    height: 100vh;
+}
+.container-menu {
+    /* background-color: #87CEFA; */
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    /* border: 1px solid black; */
+    height: 80px;
+}
+.menu {
+    display: inline;
+    color: black;
+    padding-left: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.jumbo-content {
+    background-color: #0000CD;
+    border: 1px solid black;
+    height: 200px;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.album-cover {
+    background-image: url("img/david-guetta.jpg");
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+.album-cover img {
+    max-width: 100%;
 }
