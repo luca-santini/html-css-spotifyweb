@@ -10,7 +10,6 @@ aside {
     width: 20%;
     height: 100vh;
 }
-
 #title {
     font-size: 30px;
     font-weight: bold;
@@ -49,17 +48,17 @@ li {
     padding-top: 10px;
 }
 main {
-    background-color: grey;
+    background-color: darkgrey;
     float: right;
     width: 80%;
     height: 100vh;
 }
+
 .container-menu {
-    /* background-color: #87CEFA; */
     margin-top: 20px;
     margin-left: 20%;
     margin-right: 20%;
-    /* border: 1px solid black; */
+    border: none;
     height: 80px;
 }
 .menu {
@@ -69,23 +68,28 @@ main {
     font-size: 18px;
     text-transform: uppercase;
 }
-.jumbo-content {
-    background-color: #0000CD;
-    border: 1px solid black;
-    height: 200px;
-    width: 80%;
-    margin-top: 5%;
+.flex-container {
+    display: flex;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 80%;
+    /* background-color: #f1f1f1; */
 }
-.album-cover {
-    background-image: url("img/david-guetta.jpg");
-    border: 1px solid white;
-    border-radius: 50%;
-    height: 100%;
-    width: 20%;
-    float: left;
+.flex-container > div {
+  margin: 10px;
 }
-.album-cover img {
+.flex-container > div > p {
+  text-align: center;
+}
+img {
     max-width: 100%;
+    border-radius: 50%;
+}
+.title {
+    margin-left: 10%;
+}
+.title h2 {
+    color: white;
+    font-size: 30px;
 }
